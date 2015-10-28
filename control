@@ -1,9 +1,10 @@
 Package: com.supermamon.spotwhite
 Name: SpotWhite
 Depends: mobilesubstrate, firmware (>= 9.0)
-Version: 1.0.0
+Version: 1.0.1
 Architecture: iphoneos-arm
 Description: Make the Spotlight background white!
 Maintainer: Raymond Velasquez <at.supermamon@gmail.com>
 Author: Raymond Velasquez <at.supermamon@gmail.com>
 Section: Tweaks
+Depiction: https://supermamon.github.io/repo/depictions/?p=com.supermamon.spotwhite
