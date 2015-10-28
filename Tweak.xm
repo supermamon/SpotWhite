@@ -12,7 +12,7 @@
 - (void)layoutSubviews {
 	%orig;
 	
-	//NSLog(TWEAK_ABBR@"::Class.method PrefEnable=%d", PrefEnable);
+	NSLog(TWEAK_ABBR@"::SBSearchBackdropView.layoutSubviews called.");
 	UIView *_tintView = MSHookIvar<UIView *>(self, "_tintView");	
 	_tintView.hidden = YES;
 	
@@ -23,7 +23,7 @@
 - (void)layoutSubviews {
 	%orig;
 	
-	//NSLog(TWEAK_ABBR@"::Class.method PrefEnable=%d", PrefEnable);
+	NSLog(TWEAK_ABBR@"::SBSearchBlurEffectView.layoutSubviews called.");
 	UIView *_tintView = MSHookIvar<UIView *>(self, "_tintView");	
 	_tintView.hidden = YES;
 	
